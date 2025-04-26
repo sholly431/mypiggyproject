@@ -32,6 +32,9 @@ position: fixed;
 top: 0;
 left: 0;
 right: 0;
+padding: 15px;
+box-shadow: 2px 4px 5px rgba(0,0,0,0.5);
+
 }
 
 .logo {
@@ -76,13 +79,7 @@ a:hover {
     }
 }
 
-.button1:hover {
-  
-}
 
-.button2:hover {
-    
-}
 
 .button2 {
     padding: 15px 22px;
@@ -170,7 +167,7 @@ a:hover {
 .phonedancing {
     width: 100%;
     height: 70vh;
-    padding-top: 80px;
+    padding-top: 150px;
     animation: bounce 5s infinite;
 }
 
@@ -350,7 +347,7 @@ gap: 30px;
        background-color:#0f60d6;
        color: white;
        height: 400px;
-       width: 35%;
+       width: 40%;
        border-radius: 1rem;
        padding-top: 40px;
       
@@ -358,7 +355,12 @@ gap: 30px;
         width: 100%;
         padding-top: 200px;
        }
-       } 
+      } 
+      .hero4-container1:hover{
+        background-color:#ffffff;
+        color:#0f60d6;
+               }
+
        .hero4-container-content{
         padding-left: 40px;
        }
@@ -376,6 +378,10 @@ gap: 30px;
        img{width: 100%;
         padding-top: 200px;
        }} 
+       .hero4-container2:hover{
+        background-color:#ffffff;
+        color:#0089ff;
+               }
         .hero4-container3{
             display: flex;
             justify-content: space-between;
@@ -390,6 +396,10 @@ gap: 30px;
            }
         
        } 
+       .hero4-container3:hover{
+        background-color:#ffffff;
+        color:#069b40;
+               }
         .hero4-container-heading{
         padding-bottom: 30px;
         font-size: 30px;
@@ -413,7 +423,11 @@ font-size: 18px;
         img{width: 100%;
             padding-top: 200px;
            }
-   } 
+   }
+   .hero4-container4:hover{
+    background-color:#ffffff;
+    color:#e5288e;
+           } 
     .hero4-container5{
         display: flex;
         justify-content: space-between;
@@ -427,6 +441,10 @@ font-size: 18px;
             padding-top: 200px;
            }
    } 
+   .hero4-container5:hover{
+    background-color:#ffffff;
+    color:#0c1825;
+           }
     .hero4-container6{
     display: flex;
         justify-content: space-between;
@@ -436,10 +454,14 @@ font-size: 18px;
         width: 40%;
         border-radius: 1rem;
          padding-top: 40px;
-        img{width: 100%;
-             padding-top: 200px;
+        img{width: 80%;
+             padding-top: 170px;
            }
    } 
+   .hero4-container6:hover{
+    background-color:#ffffff;
+    color:#ff783c;
+           }
 /* responsiveness for hero4-container */
 
    @media(max-width:1700px){
